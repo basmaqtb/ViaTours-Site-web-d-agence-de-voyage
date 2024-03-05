@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -13,20 +12,23 @@ body {
 }
 
 .wrapper {
-    margin-top: 5em;
-    margin-left: 6em;
-    margin-right: 6em;
+    margin-top: 2em;
+    padding-left: 4em;
+    padding-right: 3em;
 }
 
 header {
     display: flex;
     align-items: center;
     background-color: #FEF7F4;
-    height: 6em;
+    height: 5em;
+    gap: 1em;
 }
 
 .logo {
     margin-left: 1em;
+    width: 150px;
+    height: 30px;
 }
 
 nav ul {
@@ -52,6 +54,7 @@ a {
 .upper {
     display: flex;
     gap: 3em;
+    padding-left:1em;
 }
 
 .big-pic {
@@ -62,42 +65,54 @@ a {
 .sous-titre {
     font-size: 0.8rem;
     width: 28rem;
-    line-height: 2.5;
-    margin-bottom: 2rem;
+    line-height: 2;
+    margin-bottom: 1rem;
 }
 
 h1 {
     font-size: 3rem;
     font-weight: normal;
     margin: 0;
+    margin-top: 2em;
 }
 
-h4{
-    margin-bottom: 3rem;
-}
 
 .sections{
     display: flex;
     gap: 2em;
-   
+    padding-bottom: 3.5em;
 }
 
 .sections img{
-    margin-bottom: 2rem ;
-    padding-top: 2rem ;
+    margin-bottom:1rem ;
+    padding-top: 1rem ;
    
 }
 .card1 ,.card2 ,.card3 ,.card4{
     flex: 1;
+    line-height: 2em;
+    width: 10em;
+    font-size: 65%;
+}
+
+h3{
+    padding-bottom: 2em;
 }
 
 
 
 footer {
     background-color: #FEF7F4;
-    list-style-type: none;
+    height: 13em;
+    padding-top: 3em;
+    font-size: 90%;
+    padding-left: 8.5em;
+   
+}
+.footer{
+    line-height: 2.5em;
 }
 
-footer ul {
-    text-decoration: none;
-}
+
+
+
